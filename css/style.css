@@ -128,15 +128,32 @@ section:nth-child(even) {
 
 hr{
     background-color: lightgray;
+    margin: 10px;
 }
 
-.debug .footer{
+.debug .footer-bottom{
     background-color: #23272A;
     height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .debug .foot-bottom{
     background-color: #7FFFD4;
 height: 50px;
+}
+
+.debug .logo-footer{
+    background-color:#F08080 ;
+}
+
+.logo-footer{
+    
+    background-color:#F08080 ;
+}
+
+.bottone-logo{
+    background-color:#F08080 ;
 }
