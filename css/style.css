@@ -116,19 +116,27 @@ section:nth-child(even) {
 
 .debug .col-prima{
     background-color: #F08080;
-    height: 570px;
-    width:30%;
+    height: 500px;
+    width: 20%
 }
-
 .debug .col-seconda{
 
     background-color: #20B2AA;
-    height: 570px;
-    width: 200px;
+    height: 500px;
+    width: calc(100% /4)
 }
 
-.debug .col-terza{
-    background-color: #20B2AA;
-    height: 570px;
-    width: 200px;
+hr{
+    background-color: lightgray;
+}
+
+.debug .footer{
+    background-color: #23272A;
+    height: 120px;
+
+}
+
+.debug .foot-bottom{
+    background-color: #7FFFD4;
+height: 50px;
 }
