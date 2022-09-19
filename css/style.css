@@ -23,11 +23,13 @@ height: 50px;
 
 }
 
+
 .container{
 
     max-width: 1200px;
     margin:auto;
 }
+
 
 .header-top{
     display: flex;
@@ -35,6 +37,9 @@ height: 50px;
     align-items: center;
 }
 
+header{
+    padding: 16px 0;
+}
 
 .debug .bottom-background{
     background-color: #00008b;
@@ -56,3 +61,35 @@ height: 50px;
     
 }
 
+.bottom-background{
+    padding: 50px 0;
+    margin: auto;
+}
+
+
+.section{
+
+    padding: 40px 0;
+}
+
+.debug .row{
+    height: 400px;
+}
+.debug .col-big{
+    background-color: #1e90ff;
+}
+.debug .col-small{
+    background-color: pink;
+}
+
+.row{
+    display: flex;
+}
+
+.col-big{
+    width:60%;
+}
+
+.col-small{
+    width:40%
+}
