@@ -1,0 +1,49 @@
+/*---------
+Reset
+---------*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+/*---------
+Debug
+---------*/
+
+.debug header{
+    background-color: #add8e6;
+    
+    
+}
+
+.debug .header-top{
+background-color: #daa502 ;
+height: 50px;
+
+}
+
+.container{
+
+    max-width: 1200px;
+    margin:auto;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debug .header-bottom{
+    background-color: blue;
+    height: 480px;
+    
+}
+
+.header-bottom{
+    display: flex;
+    justify-content:last baseline;
+    align-items: center;
+    
+}
