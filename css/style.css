@@ -35,6 +35,7 @@ height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header{
@@ -67,24 +68,30 @@ header{
     margin: auto;
 }
 
+.container{
+    display: flex;
+    padding: 60px;
+}
 
 .section{
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
-.debug .row{
-    height: 400px;
+.section: nth-child(2n){
+background-color: lightgray;
 }
+
 .debug .col-big{
     background-color: #1e90ff;
+    height: 480px;
+    
 }
 .debug .col-small{
     background-color: pink;
+    height: 480px;
+    
 }
 
-.row{
-    display: flex;
-}
 
 .col-big{
     width:60%;
@@ -92,4 +99,13 @@ header{
 
 .col-small{
     width:40%
+}
+
+.debug .col-biggest{
+    background-color: green;
+    height: 480px;
+}
+
+.col-biggest{
+    width: 100%;
 }
