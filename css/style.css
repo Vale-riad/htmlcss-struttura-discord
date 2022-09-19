@@ -35,15 +35,3 @@ height: 50px;
     align-items: center;
 }
 
-.debug .header-bottom{
-    background-color: blue;
-    height: 480px;
-    
-}
-
-.header-bottom{
-    display: flex;
-    justify-content:last baseline;
-    align-items: center;
-    
-}
