@@ -39,16 +39,20 @@ height: 50px;
 .debug .bottom-background{
     background-color: #00008b;
     height: 474px;
-    padding: 20px; 
+    padding: 50px; 
     
 
 }
 
-
+.rosa{
+    display: flex;
+    text-align: center;
+}
 .debug .rosa{
-   
     max-width: 800px;
     height: 400px;
     background-color: #ee82ee;
+    margin-left: 300px;
     
 }
+
