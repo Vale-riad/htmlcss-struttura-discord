@@ -35,3 +35,20 @@ height: 50px;
     align-items: center;
 }
 
+
+.debug .bottom-background{
+    background-color: #00008b;
+    height: 474px;
+    padding: 20px
+    
+
+}
+
+
+.debug .rosa{
+   
+    max-width: 800px;
+    height: 400px;
+    background-color: #ee82ee;
+    
+}
