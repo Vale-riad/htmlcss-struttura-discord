@@ -58,6 +58,7 @@ header{
     height: 400px;
     background-color: #ee82ee;
     margin-left: 300px;
+    margin-bottom: 40px;
     
 }
 
@@ -68,7 +69,6 @@ header{
 
 
 .section{
-
     padding: 40px 0;
 }
 
