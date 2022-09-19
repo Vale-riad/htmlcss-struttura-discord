@@ -76,10 +76,9 @@ header{
 .section{
     padding: 20px 0;
 }
-
-.section: nth-child(2n){
-background-color: lightgray;
-}
+section:nth-child(even) {
+    background: lightgray;
+  }
 
 .debug .col-big{
     background-color: #1e90ff;
@@ -92,20 +91,44 @@ background-color: lightgray;
     
 }
 
-
+.debug .col-biggest{
+    background-color: green;
+    height: 480px;
+}
 .col-big{
     width:60%;
 }
 
 .col-small{
-    width:40%
+    width:40%;
 }
 
-.debug .col-biggest{
-    background-color: green;
-    height: 480px;
-}
 
 .col-biggest{
     width: 100%;
+}
+
+.debug .footer-top{
+    background-color: #23272A;
+   
+}
+
+
+.debug .col-prima{
+    background-color: #F08080;
+    height: 570px;
+    width:30%;
+}
+
+.debug .col-seconda{
+
+    background-color: #20B2AA;
+    height: 570px;
+    width: 200px;
+}
+
+.debug .col-terza{
+    background-color: #20B2AA;
+    height: 570px;
+    width: 200px;
 }
