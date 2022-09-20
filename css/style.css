@@ -136,8 +136,6 @@ hr{
     height: 120px;
     display: flex;
     justify-content: space-between;
-    
-
 }
 
 .debug .footer-bottom{
@@ -156,4 +154,5 @@ height: 50px;
 
 .bottone-footer{
     background-color:#F08080 ;
+    justify-content: flex-start;
 }
